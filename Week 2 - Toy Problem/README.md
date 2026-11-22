@@ -29,6 +29,6 @@ Keeping the best of 50 solutions improved this to $190.4$, but it is still nowhe
 **B. Soil-moisture sensor placement for smart irrigation**
 
 - Fitness: maximise the fraction of the field covered by at least one sensor's sensing radius
-- Encoding: real vector of 2K coordinates (x₁, y₁, …, x_K, y_K), one (x, y) per sensor
+- Encoding: real vector of 2K coordinates (x<sub>1</sub>, y<sub>1</sub>, …, x<sub>K</sub>, y<sub>K</sub>), one (x, y) per sensor
 - Search space: continuous; on a 100 m × 100 m field at 1 m resolution with K = 10, (10⁴)¹⁰ = 10⁴⁰ layouts
 - Constraints: sensors inside the field and outside obstacle zones; minimum spacing between sensors; each sensor within radio range of the gateway or another sensor
