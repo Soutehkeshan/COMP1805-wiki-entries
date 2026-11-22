@@ -9,3 +9,12 @@ Agents gradually cluster around the best match. SDS is good for partial hypothes
 
 ## Large image as search space, small image as model
 Here, a hypothesis is an (x, y) offset where the small image might sit within the large image. A micro-feature could be **one of the values of R, G or B** for a single pixel. An agent picks a random pixel in the model and one of its three colour channels. It then compares that value with the same channel of the corresponding pixel in the search image at its hypothesised offset.
+
+
+Other possible micro-features:
+- **A whole pixel:** compare all three channels at once (stricter test, fewer false matches).
+- **Greyscale brightness** of a pixel, which ignores colour shifts.
+- **A small patch** (e.g. 3×3 pixels), which carries more information per test.
+- **Edge or gradient direction** at a pixel, which is robust to lighting changes.
+
+In real images, exact value matches are fragile because of noise and compression, so a test can count as a match when the values are within a small tolerance.
