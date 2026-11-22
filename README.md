@@ -13,3 +13,6 @@ My weekly wiki entries for **COMP1805 Natural Computing** at the University of G
 ## Code
 - **MATLAB:** [`week3_dfo_experiments.m`](Week%203%20%26%204%20-%20DFO/week3_dfo_experiments.m)
 - **Python:** [`week4_dfo_image_analysis.ipynb`](Week%203%20%26%204%20-%20DFO/week4_dfo_image_analysis.ipynb), and the [Week 5 scripts](Week%205%20-%20GA/), which need `numpy`, `matplotlib` and `ypstruct`
+
+## Module Leader
+Dr Mohammad Majid al-Rifaie
